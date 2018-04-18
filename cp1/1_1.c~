@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void check(char x[]){
+  for(int i=0; i<sizeof(x); i++){
+    for(int j=i+1; j<sizeof(x); j++){
+      if(x[i] == x[j]){
+	printf("String does not have all unique characters");
+	break;
+      }
+    }
+  }
+  printf("String has all unique characters");
+}
+
+int main(){
+  char x[] = "abcd";
+  check(x);
+}

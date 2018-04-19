@@ -14,7 +14,7 @@
  
      * traversed the whole string and used i and i+1 in a nested for loop to check that not one character was equal to another, and as soon as an instance was found, it stops and returns false.
      
-     Step 3: 
+  Step 3: 
       
      -for loops used 
      -no need to store data

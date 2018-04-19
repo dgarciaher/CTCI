@@ -22,7 +22,7 @@
      
      Step 4:
      
-      * "abc"
+     * "abc"
       * a=b false
       * a=c false
       * b=c false

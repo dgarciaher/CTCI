@@ -20,12 +20,11 @@
      *no need to store data
      
      Step 4:
-     *"abc"
-     
-     a=b false
-     a=c false
-     b=c false
-     return true
+      *"abc"
+      *a=b false
+      *a=c false
+      *b=c false
+      *return true
      
      Step 5: 
      

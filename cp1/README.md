@@ -16,6 +16,7 @@
      
   Step 3: 
       
+      
      *for loops used 
      *no need to store data
      

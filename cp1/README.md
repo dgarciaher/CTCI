@@ -16,29 +16,29 @@
      
      Step 3: 
       
-     *for loops used 
-     *no need to store data
+     -for loops used 
+     -no need to store data
      
      Step 4:
-      *"abc"
-      *a=b false
-      *a=c false
-      *b=c false
-      *return true
+      -"abc"
+      -a=b false
+      -a=c false
+      -b=c false
+      -return true
      
      Step 5: 
      
-     *code in folder
+     -code in folder
      
      Step 6:
      
-     *"abcd"
-     *"abbc"
-     *"a3io"
-     *"3bbc"
-     *"a"
-     *" "
+     -"abcd"
+     -"abbc"
+     -"a3io"
+     -"3bbc"
+     -"a"
+     -" "
      
      Step 7:
      
-     *Make sure to have exeptions for empty strings and strings with characters that are not a-z. Also be able to handle really long strings and one character strings.
+     -Make sure to have exeptions for empty strings and strings with characters that are not a-z. Also be able to handle really long strings and one character strings.

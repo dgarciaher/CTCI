@@ -16,8 +16,8 @@
      
   Step 3: 
       
-     -for loops used 
-     -no need to store data
+     *for loops used 
+     *no need to store data
      
      Step 4:
       -"abc"

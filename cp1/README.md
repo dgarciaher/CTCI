@@ -44,3 +44,6 @@
      Step 7:
      
      * Make sure to have exeptions for empty strings and strings with characters that are not a-z. Also be able to handle really long strings and one character strings.
+
+
+* L: Strategy works for all cases with added exeptions.

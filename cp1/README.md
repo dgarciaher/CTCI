@@ -48,7 +48,7 @@
 
 * L: Strategy works for all cases with added exeptions.
 
-
+---------------------------------------------------------------------------------------------------------------------------
 
 1.2
 * I: Create an algorithm that will decide if one string is the permutation of the other.

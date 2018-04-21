@@ -145,3 +145,62 @@
 
 
 * L: Strategy works for all cases with added exeptions.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+1.8
+* I: Create a method that will find the zeroes in a 2D array and make the row and column where it is located all equal to 0.
+* D: Goal is to find all ones and modify the matrix to have more 0s in the columns and rows where the original ones were located.
+
+  Step 1:
+  
+    * {{5,2,7,0},
+		   {4,7,3,9},
+			 {7,2,6,3},
+			 {3,8,5,7}}
+    * {{0,0,0,0},
+		   {4,7,3,0},
+			 {7,2,6,0},
+			 {3,8,5,0}}
+      
+  Step 2:
+ 
+     * first create a string r containing the string we want to replace the spaces with, then create a new string that will use the .replaceAll method to replace the spaces in the new string with r.
+     
+  Step 3: 
+      
+      
+     * no loops, or any need to store data.
+     * uses already-existing methods. 
+     
+     Step 4:
+     
+     * "go to work"
+      * r="%20"
+      * new string= "go%20to%20work"
+     
+     Step 5: 
+     
+     * code in folder
+     
+     Step 6:
+     
+     * "go to work"
+     * "go"
+     * "twenty seconds "
+     * " "
+     * "bird   fly"
+     
+     Step 7:
+     
+     * tried using .replace .replaceAll was needed.
+
+
+* L: Strategy works for all cases with added exeptions.
+
+
+
+
+
+
+

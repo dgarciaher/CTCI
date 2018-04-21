@@ -102,35 +102,30 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
-1.2
-* I: Create an algorithm that will decide if one string is the permutation of the other.
-* D: Goal is to find out if all the characers in one string are present in the other.
-* E&A:
+1.3
+* I: Create a method that will replace every space in a string with the string "%20"
+* D: Goal is to find all spaces in a string and replace every single one with the string.
 
   Step 1:
   
-    * "abcd" "cdab" -> true
-    * "abbd" "adbc" -> false
+    * "go to work" -> "go%20to%20work"
+    * "Mr John Smith" -> "Mr%20John%20Smith"
       
   Step 2:
  
-     * first check length of two strings, if they are not equal, return false. Sort strings in alphabetical order, and then compare them to each other.
+     * first create a string r containing the string we want to replace the spaces with, then create a new string that will use the .replaceAll method to replace the spaces in the new string with r.
      
   Step 3: 
       
       
-     * a lot of for loops used 
-     * probably a faster solution in terms of run time
-     * Stores data in a char array
-     * use of java array package
+     * no loops, or any need to store data.
+     * uses already-existing methods. 
      
      Step 4:
      
-     * "odc" "dco"
-      * length1 == length2? -> will keep progrm going
-      * sort1 = "cdo"
-      * sort2 = "cdo"
-      * sort1 == sort2? -> true
+     * "go to work"
+      * r="%20"
+      * new string= "go%20to%20work"
      
      Step 5: 
      
@@ -138,16 +133,15 @@
      
      Step 6:
      
-     * "abcd" "cabd"
-     * "abbc" "bbaa"
-     * " " "a"
-     * "ba" "bc"
-     * "afg" "afga"
-     * " " " "
+     * "go to work"
+     * "go"
+     * "twenty seconds "
+     * " "
+     * "bird   fly"
      
      Step 7:
      
-     * Tried to compare arrays using .equals() method as if comparing strings, Array.equals() was needed.
+     * tried using .replace .replaceAll was needed.
 
 
 * L: Strategy works for all cases with added exeptions.

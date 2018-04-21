@@ -52,31 +52,33 @@
 
 1.2
 * I: Create an algorithm that will decide if one string is the permutation of the other.
-* D: Goal is to determine whether at least one character of a string is found more than one time.
+* D: Goal is to find out if all the characers in one string are present in the other.
 * E&A:
 
   Step 1:
   
-    * "abcd" -> true
-    * "abbd" -> false
+    * "abcd" "cdab" -> true
+    * "abbd" "adbc" -> false
       
   Step 2:
  
-     * traversed the whole string and used i and i+1 in a nested for loop to check that not one character was equal to another, and as soon as an instance was found, it stops and returns false.
+     * first check length of two strings, if they are not equal, return false. Sort strings in alphabetical order, and then compare them to each other.
      
   Step 3: 
       
       
-     * for loops used 
-     * no need to store data
+     * a lot of for loops used 
+     * probably a faster solution in terms of run time
+     * Stores data in a char array
+     * use of java array package
      
      Step 4:
      
-     * "abc"
-      * a=b false
-      * a=c false
-      * b=c false
-      * return true
+     * "odc" "dco"
+      * length1 == length2? -> will keep progrm going
+      * sort1 = "cdo"
+      * sort2 = "cdo"
+      * sort1 == sort2? -> true
      
      Step 5: 
      
@@ -84,16 +86,68 @@
      
      Step 6:
      
-     * "abcd"
-     * "abbc"
-     * "a3io"
-     * "3bbc"
-     * "a"
-     * " "
+     * "abcd" "cabd"
+     * "abbc" "bbaa"
+     * " " "a"
+     * "ba" "bc"
+     * "afg" "afga"
+     * " " " "
      
      Step 7:
      
-     * Make sure to have exeptions for empty strings and strings with characters that are not a-z. Also be able to handle really long strings and one character strings.
+     * Tried to compare arrays using .equals() method as if comparing strings, Array.equals() was needed.
+
+
+* L: Strategy works for all cases with added exeptions.
+
+----------------------------------------------------------------------------------------------------------------------
+
+1.2
+* I: Create an algorithm that will decide if one string is the permutation of the other.
+* D: Goal is to find out if all the characers in one string are present in the other.
+* E&A:
+
+  Step 1:
+  
+    * "abcd" "cdab" -> true
+    * "abbd" "adbc" -> false
+      
+  Step 2:
+ 
+     * first check length of two strings, if they are not equal, return false. Sort strings in alphabetical order, and then compare them to each other.
+     
+  Step 3: 
+      
+      
+     * a lot of for loops used 
+     * probably a faster solution in terms of run time
+     * Stores data in a char array
+     * use of java array package
+     
+     Step 4:
+     
+     * "odc" "dco"
+      * length1 == length2? -> will keep progrm going
+      * sort1 = "cdo"
+      * sort2 = "cdo"
+      * sort1 == sort2? -> true
+     
+     Step 5: 
+     
+     * code in folder
+     
+     Step 6:
+     
+     * "abcd" "cabd"
+     * "abbc" "bbaa"
+     * " " "a"
+     * "ba" "bc"
+     * "afg" "afga"
+     * " " " "
+     
+     Step 7:
+     
+     * Tried to compare arrays using .equals() method as if comparing strings, Array.equals() was needed.
 
 
 * L: Strategy works for all cases with added exeptions.

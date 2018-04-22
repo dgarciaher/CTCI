@@ -1,6 +1,6 @@
 # Problems from chapter one
 
-1.1
+# 1.1
 * I: Create an algorithm that will check if a string contains all unique characters.
 * D: Goal is to determine whether at least one character of a string is found more than one time.
 * E&A:
@@ -50,7 +50,8 @@
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-1.2
+# 1.2
+
 * I: Create an algorithm that will decide if one string is the permutation of the other.
 * D: Goal is to find out if all the characers in one string are present in the other.
 * E&A:
@@ -102,7 +103,7 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
-1.3
+# 1.3
 * I: Create a method that will replace every space in a string with the string "%20"
 * D: Goal is to find all spaces in a string and replace every single one with the string.
 
@@ -148,7 +149,7 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-1.8
+# 1.8
 * I: Create a method that will find the zeroes in a 2D array and make the row and column where it is located all equal to 0.
 * D: Goal is to find all ones and modify the matrix to have more 0s in the columns and rows where the original ones were located.
 
@@ -219,7 +220,8 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-1.7
+# 1.7
+
 * I: Create a method that will flip a matrix 90 degrees.
 * D: Goal is to be able to flip the matrix by 90 degrees to the left.
 

@@ -154,29 +154,38 @@
 
   Step 1:
   
-    * {{5,2,7,0},\t{4,7,3,9},
-       {7,2,6,3},
-	{3,8,5,7}}
+    * {{5,2,7,0},
+    * {4,7,3,9},
+    * {7,2,6,3},
+    * {3,8,5,7}}  ->
+    
+    
     * {{0,0,0,0},
-		   {4,7,3,0},
-			 {7,2,6,0},
-			 {3,8,5,0}}
+    * {4,7,3,0},
+    * {7,2,6,0},
+    * {3,8,5,0}}
       
   Step 2:
  
-     * first create a string r containing the string we want to replace the spaces with, then create a new string that will use the .replaceAll method to replace the spaces in the new string with r.
+     * first go through array and switch elements in the array with a double for loop and a simple [i][j]=[j][i] switch, and then doing another element switch that requires more steps and an element i,k,and j also inside the for loop.
      
   Step 3: 
       
       
-     * no loops, or any need to store data.
-     * uses already-existing methods. 
+     * many for loops needed to traverse matrix.
      
      Step 4:
      
-     * "go to work"
-      * r="%20"
-      * new string= "go%20to%20work"
+    * {{5,2,7,0},
+    * {4,7,3,9},
+    * {7,2,6,3},
+    * {3,8,5,7}}
+    * row=i
+    * column=j
+    * {{0,0,0,0},
+    * {4,7,3,0},
+    * {7,2,6,0},
+    * {3,8,5,0}}
      
      Step 5: 
      
@@ -184,18 +193,92 @@
      
      Step 6:
      
-     * "go to work"
-     * "go"
-     * "twenty seconds "
-     * " "
-     * "bird   fly"
+     * {{5,2,7,0},
+     * {4,7,3,9},
+     * {0,0,0,0},
+     * {3,8,5,7}}
+     
+     
+     * {{0,0,0,0},
+     * {0,0,0,0},
+     * {0,0,0,0},
+     * {0,0,0,0}}
      
      Step 7:
      
-     * tried using .replace .replaceAll was needed.
+     * Had some bugs trying yo figure out how to save more than one row and column value.
 
 
 * L: Strategy works for all cases with added exeptions.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+1.7
+* I: Create a method that will flip a matrix 90 degrees.
+* D: Goal is to be able to flip the matrix by 90 degrees to the left.
+
+  Step 1:
+  
+    * {{1,2,3,4},
+    * {5,6,7,8},
+    * {9,10,11,12},
+    * {13,14,15,16}};   ->
+    
+    * {{4,8,12,16},
+    * {3,7,11,15},
+    * {2,6,10,14},
+    * {1,5,9,13}}; 
+      
+  Step 2:
+ 
+     * first go through array and switch elements in the array with a double for loop and a simple [i][j]=[j][i] switch, and then doing another element switch that requires more steps and an element i,k,and j also inside the for loop.
+     
+  Step 3: 
+      
+     * many for loops needed to traverse matrix.
+     * uses a new array to store and return values.
+     * uses an array that serves as a temp value to save parts of the matrix.
+     
+     
+     Step 4:
+     
+    
+    * {{5,2,7,0},
+    * {4,7,3,9},
+    * {7,2,6,3},
+    * {3,8,5,7}}
+    * temp= arr[j][i]
+    * arr[j][i]=arr[k][i]   where j is increasing in count and k is decreasing
+    * arr[k][i]= temp
+    * {{0,0,0,0},
+    * {4,7,3,0},
+    * {7,2,6,0},
+    * {3,8,5,0}}
+     
+     Step 5: 
+     
+     * code in folder
+     
+     Step 6:
+     
+     * {{5,2,7,0},
+     * {4,7,3,9},
+     * {0,0,0,0},
+     * {3,8,5,7}}
+     
+     
+     * {{5,5,5,5},
+     * {4,3,8,1},
+     * {5,2,3,6}};
+
+     
+     Step 7:
+     
+     * Tried flipping only using i and j and a third variable was needed.
+
+
+* L: Strategy works for all cases with added exeptions.
+
 
 
 

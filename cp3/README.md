@@ -179,25 +179,24 @@
 
   Step 1:
   
-    * A-B-C-D-E-C
-    * returns C
+    * not appllicable
       
   Step 2:
  
-     * Traverse list with two temporary node pointers, one going twice as fast as the other, when and if they meet signals that ther is a cycle.
+     * Queue will implement two stacks in order to emulate the funtions that a queue would have
+     * The size will be determined by adding the sizes of both the queues
+     * the add function will add the element into the stack which was most recently updated which will emulate the top of the queue.
+     * Both the peek and the pop function will use the older stack which will have the current elements.
      
   Step 3: 
       
-     * several while loops and temporary node pointer are needed.
+     * Unnesecary use of stacks.
      
      
      Step 4:
      
     
-    * A-B-C-D-E-C
-    * front= C
-    * back= C
-    * return= C
+    * not applicable.
      
      Step 5: 
      
@@ -205,14 +204,12 @@
      
      Step 6:
      
-     * A-B-C-D-E-C
-     * A-A-A-A-A
-     * A-B-B-C-A
+     * not applicable.
 
      
      Step 7:
      
-     * finding the loop created many problems.
+     * finding which stack to use for what is tricky.
 
 
 * L: Strategy works for all cases with added exeptions.

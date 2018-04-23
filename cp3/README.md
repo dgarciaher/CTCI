@@ -172,10 +172,10 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-# 2.8
+# 3.4
 
-* I: Create a method that will find the node at the beggining of the loop in a circular linked list.
-* D: Goal is to find the loop and figure out which node is at the begging of it.
+* I: Create a queue using two stacks.
+* D: Goal is to perform all opertions from a queue with two stacks.
 
   Step 1:
   

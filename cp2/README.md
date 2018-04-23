@@ -1,4 +1,4 @@
-# Problems from chapter one
+# Problems from chapter two
 
 # 2.2
 * I: Create a method that will give you the information of the node k positions from the tail.
